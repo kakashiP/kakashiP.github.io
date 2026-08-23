@@ -220,6 +220,13 @@ header {
     font-weight: 700;
     color: white;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.app-icon-placeholder img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 /* Custom Icon Gradients for Variety */
